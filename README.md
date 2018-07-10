@@ -1,4 +1,6 @@
-A tiny test package created as an example for the [iXperience](http://ixperience.co.za/) Data Science course.
+# Elliptical
+
+This is an **example package** (for *training purposes*) which has a couple of functions relating to ellipses.
 
 Here's the status badge for our [Travis CI](https://travis-ci.org/) build:
 
