@@ -14,3 +14,8 @@ test_that("area of a line", {
 test_that("area of an ellipse", {
   expect_true(all.equal(ellipse_area(1, 0.5), 2.7207, tolerance = 0.000001))
 })
+
+test_that("invalid eccentricity", {
+  expect_error(ellipse_area(1, -1))
+  expect_error(ellipse_area(1, 2))
+})
